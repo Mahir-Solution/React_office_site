@@ -1,0 +1,30 @@
+.programs{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 30px auto;
+    width: 90%;
+    flex-wrap: wrap;
+}
+.program img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+    transition: 0.4s;
+    
+}
+.program{
+    flex-basis: 31%;
+    /* position: relative; */
+    
+}
+
+.caption{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 10px;
+    background: lightblue;
+    color: black;
+    font-weight: bold;
+    cursor: pointer;
+}
